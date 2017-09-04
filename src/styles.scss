@@ -1,6 +1,4 @@
-//@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
-
-@import 'sass/variables.scss';
+@import '~sass/variables.scss';
 
 *,
 *:before,
@@ -15,4 +13,22 @@ html {
 
 body {
     font-size: 1.4rem;
+}
+
+.flotar {
+    box-shadow:
+        0 3px 5px -1px rgba(0,0,0,.2);
+}
+
+// ////////////////////////////// //
+// Header
+// ////////////////////////////// //
+.logo {
+    /*
+    background-color: grey;
+    //background-image: url('images/logo.png');
+    background-repeat: no-repeat;
+    height: 106px;
+    width: 273px;
+    */
 }
