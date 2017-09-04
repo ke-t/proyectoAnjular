@@ -11,13 +11,15 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { FooterComponent } from './footer/footer.component';
 
-import { InicioModule } from '../../routes/inicio/inicio.module';
+import { InicioModule } from './../../routes/inicio/inicio.module';
+import { SobreModule } from './../../routes/sobre/sobre.module';
 
 @NgModule({
   imports: [
     CommonModule,
     LayoutRoutingModule,
     InicioModule,
+    SobreModule,
     MdButtonModule,
     MdIconModule,
     MdTooltipModule

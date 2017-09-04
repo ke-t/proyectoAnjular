@@ -28,3 +28,15 @@
 ++ Añadir <router-outlet></router-outlet> en 'main-content.componenet.html'
 ++ Importar el componente 'inicio' para cambiar el routing del layout
 ++ Importar el módulo 'inicio' en el layout
+
++ **Crear el módulo catálogo por lazy routing:**
+++ ng g m routes/catalogo --routing
+++ ng g c routes/catalogo/catalogo --flat
+
+
+++ ng g c routes/catalogo/base --export --flat --it --is
+++ ng g c routes/catalogo/nuevo
+
+
+ng g m routes/sobre --routing
+ng g c routes/sobre/sobre --flat
